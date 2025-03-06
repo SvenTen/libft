@@ -5,8 +5,10 @@
 #include <unistd.h>
 
 // String functions
-int ft_strlen(const char *str);
-size_t strlcpy(char *dst, const char *src, size_t size);
+size_t ft_strlen(const char *str);
+size_t ft_strlcpy(char *dst, const char *src, size_t size);
+size_t ft_strlcat(char *dst, const char *src, size_t size);
+char *ft_strchr(const char *s, int c);
 
 // char functions
 int ft_isalpha(int c);
